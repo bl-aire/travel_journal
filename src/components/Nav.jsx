@@ -1,7 +1,9 @@
 export default function Nav() {
     return(
-        <div>
-            <h1>HELLO</h1>
-        </div>
+        <nav>
+            <ul>
+                <li>My Travel Journal</li>
+            </ul>
+        </nav>
     )
 }

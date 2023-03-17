@@ -1,0 +1,13 @@
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55A5A;
+    margin-top: 0;
+}
+
+nav ul li{
+    color: #ffffff;
+    padding:1.4em;
+}
