@@ -1,4 +1,7 @@
-export default function Card({img, location, date, site, description}) {
+export default function Card(props) {
+
+    const {img, location, date, site, description} = props
+
     return(
         <section className="section">
             <img src={img} alt="" className="image" />
