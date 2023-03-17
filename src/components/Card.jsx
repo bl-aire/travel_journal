@@ -1,15 +1,16 @@
-export default function Card() {
+export default function Card({img, location, date, site, description}) {
     return(
-        <section>
-            <img src="" alt=""/>
-            <div>
+        <section className="section">
+            <img src={img} alt="" className="image" />
+            <div className="details">
                 <div>
                     <img src="" alt="" />
-                    <span>{}</span>
-                    <span>View on Google Maps</span>
+                    <span className="location">{location}</span>
+                    <a href="" className="link">View on Google Maps</a>
                 </div>
-                <div>{}</div>
-                <div>{}</div>
+                <h3 className="place">{site}</h3>
+                <b>{date}</b>
+                <p>{description}</p>
             </div>
         </section>
     )

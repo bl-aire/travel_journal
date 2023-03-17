@@ -1,5 +1,6 @@
-[
+export default [
     {
+        id: 1,
         location: "JAPAN",
         site: "Mount Fuji",
         date: "12 Jan, 2021 - 24 Jan, 2021",
@@ -7,13 +8,15 @@
         img: "https://source.unsplash.com/WLxQvbMyfas",
     },
     {
+        id: 2,
         location: "AUSTRALIA",
         site: "Sydney Opera House",
         date: "27 May, 2021 - 8 Jun, 2021",
-        description: "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings",
+        description: "The Sydney Opera House is a multi-venue performing arts centre in Sydney. It is located on the banks of the Sydney Harbour.",
         img: "https://source.unsplash.com/JmuyB_LibRo",
     },
     {
+        id: 3,
         location: "NORWAY",
         site: "Geirangerfjord",
         date: "01 Oct, 2021 - 18 Nov, 2021",
